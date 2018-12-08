@@ -14,13 +14,17 @@ Other changes made in:
 -public/js/app.js
 -
 -models/index.js
+-
 -models/user.js
 -
 -index.html
+-
 -register.html
+-
 -login.html
 -
 -css/login-styles.css
+-
 -css/reg-styles.css
 -
 -server.js
