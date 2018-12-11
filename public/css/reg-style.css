@@ -3,7 +3,31 @@ html, body {
     height: 100%;
 }
 
+.center-feed {
+    margin-top: 20px;
+    margin-left: 470px;
+    width: 30%;
+   }
 
+ .container reg-page-container {
+     margin-top: 60px;
+
+   }
+   
+.h1, h1 {
+    font-size: 2.5rem;
+    color: white;
+    margin-left: 400px;
+    margin-top: 45px;
+}
+
+.logo-container {
+    width: 66.7%;
+    height: 140px;
+    background-image: url("../images/logo.png");
+    margin-left: 200px;
+    margin-top: 50px;
+  }
 
 .divider-text {
     position: relative;
@@ -28,7 +52,7 @@ html, body {
 }
 
 .reg-form {
-    margin-top: 50px;
+    margin-top: -70px;
 }
 
 .btn-facebook {

@@ -17,6 +17,12 @@
   margin-top: 50px;
 } */
 
+.center-feed {
+ margin-top: 20px;
+ margin-left: 470px;
+ width: 30%;
+}
+
 html, body {
 background-image: url("../images/landing.jpg");
 background-size: cover;
@@ -27,7 +33,7 @@ font-family: 'Numans', sans-serif;
 
 .logo-container {
   width: 66.7%;
-  height: 45%;
+  height: 140px;
   background-image: url("../images/logo.png");
   margin-left: 200px;
   margin-top: 50px;
@@ -40,7 +46,7 @@ align-content: center;
 
 .card{
 height: 370px;
-margin-top: auto;
+margin-top: 50px;
 margin-bottom: auto;
 width: 400px;
 background-color: rgba(0,0,0,0.5) !important;
