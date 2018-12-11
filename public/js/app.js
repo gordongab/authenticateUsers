@@ -8,7 +8,9 @@ $('#createAccount').on('click', function(event){
         passwordConf: $("#userpassconf").val()
     }
     console.log(user);
-    alert('User Created! You may now log in.');
+    // alert('User Created! You may now log in.');
+    $('.center-feed').append(`<div class="alert alert-success" role="alert">
+    User account created! You may now log in.</div>`)
     $.post('/api/register', user, function(response){
         console.log(response);
     })
@@ -29,8 +31,10 @@ $('#LoginAccount').on('click', function(event){
         if (response.success == true) {
             window.location.href = '/login';
         } else {
-            alert('Invalid credentials. Please register.')
+            $('.center-feed').append(`<div class="alert alert-danger" role="alert">
+            Invalid Username or Password. Please try again or register an account.</div>`)
 
+            // alert('Invalid credentials. Please register.')
         }
     })
 
